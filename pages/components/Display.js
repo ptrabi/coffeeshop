@@ -1,4 +1,4 @@
-import autoprefixer from "autoprefixer"
+/* eslint-disable */
 import Image from "next/image"
 import { ChevronLeftIcon } from "@heroicons/react/solid"
 import { useRouter } from "next/router"

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { ChevronLeftIcon } from "@heroicons/react/outline"
 import { DotsHorizontalIcon } from "@heroicons/react/outline"
 import { useRouter } from "next/router"
