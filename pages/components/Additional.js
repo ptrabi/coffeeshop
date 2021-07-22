@@ -1,9 +1,9 @@
-import { PlusCircleIcon } from "@heroicons/react/outline"
-import { MinusCircleIcon } from "@heroicons/react/outline"
+import { PlusCircleIcon } from "@heroicons/react/solid"
+import { MinusCircleIcon } from "@heroicons/react/solid"
 function Additional() {
     return (
 
-        <div className="p-0">
+        <div className="p-0 container">
             <div className=" mt-3 bg-gray-300 pt-1 pb-1">
               <div className="ml-5 max-w-sm">COSTUMIZE</div>
             </div>
@@ -110,9 +110,9 @@ function Additional() {
                 Add to cart - Rp 28.000
               </button>
                         <div className="flex items-center">
-                        <PlusCircleIcon className=" h-8 mx-2"/>
+                        <MinusCircleIcon className=" text-red-600 h-8 mx-2"/>
                         <p>1</p>
-                        <MinusCircleIcon className=" h-8 mx-2"/>
+                        <PlusCircleIcon className="text-red-600  h-8 mx-2"/>
                         </div>
               </div>
           </div>

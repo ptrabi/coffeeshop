@@ -1,11 +1,15 @@
 import autoprefixer from "autoprefixer"
 import Image from "next/image"
-
+import { ChevronLeftIcon } from "@heroicons/react/solid"
+import { useRouter } from "next/router"
 function display() {
+    const router = useRouter()
     return (
+        
         <div className="p-0">
+            <ChevronLeftIcon onClick={()=> router.push(`/`)} className=" absolute z-10 top-10 left-5 hover:cursor-pointer  rounded-full justify-between fill-current text-black   h-8 w-8"/>
             <Image 
-                className="object-contain p-0"     
+                className="object-contain p-0 z-0 absolute"     
                 src="https://i.ibb.co/7GsGZCz/coffee.png" 
                 width={1334}
                 height={1039}
