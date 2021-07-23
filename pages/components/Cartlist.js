@@ -48,9 +48,9 @@ function Cartlist() {
                         </span>
                 </span>
             </div>
-            <div className="fixed bottom-16">
+            <div className="fixed bottom-16 ">
                 <span className="bottom-20 fixed">Total</span> 
-                <span className=" right-16 bottom-20 text-red-600 font-bold fixed ">Rp.48.000</span>
+                <span className="  right-16 bottom-20 text-red-600 font-bold fixed ">Rp.48.000</span>
             <div className="fixed hover:cursor-pointer  text-white stroke-2 bg-red-600 rounded-lg  
                              justify-center h-10 w-96 pl-40 pt-2 font-bold ">
             Order 
