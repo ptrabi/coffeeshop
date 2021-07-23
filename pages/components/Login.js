@@ -8,7 +8,7 @@ function Login() {
     return (
      
 
-        <div className="sm:text-sm bg-red-200 mx-14 flex rounded-lg py-1.5 justify-center">
+        <div className="text-xs  bg-red-200 mx-14 flex rounded-lg py-1.5 items-center justify-center">
             
             <ExclamationCircleIcon className="h-6 mx-3"/>
             <span className="self-center">Login or register to continue. </span>
