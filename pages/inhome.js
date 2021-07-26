@@ -1,13 +1,12 @@
 import Head from 'next/head'
 
 import Header from './components/Header'
-import Login from './components/Login'
-import Dash from './components/Dash'
 import Search from './components/Search'
 import Thumbnail from './components/Thumbnail'
+import UserBalance from './components/UserBalance'
 
 
-export default function Home() {
+export default function inhome() {
   return (
    
       <div className="container max-w-lg ">
@@ -17,8 +16,7 @@ export default function Home() {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <Header/>
-        <Login/>
-        <Dash/>
+        <UserBalance/>
         <Search/>
         <Thumbnail/>
       

@@ -8,7 +8,7 @@ function Login() {
     return (
      
 
-        <div className="text-xs  bg-red-200 mx-14 flex rounded-lg py-1.5 items-center justify-center">
+        <div className="text-xs   bg-red-200 mx-14 flex rounded-lg py-1.5 items-center justify-center">
             
             <ExclamationCircleIcon className="h-6 mx-3"/>
             <span className="self-center">Login or register to continue. </span>
@@ -18,7 +18,7 @@ function Login() {
             <input className="bg-gray-200 rounded-lg  w-full py-3 px-6  leading-tight " id="search" type="text" placeholder="Name"/>
             <div className="py-5">EMAIL</div>
             <input className="bg-gray-200 rounded-lg mb-12 w-full py-3 px-6  leading-tight stroke-1" id="search" type="text" placeholder="Email"/>
-            <div className="fixed pt-2 hover:cursor-pointer  text-white stroke-2 bg-red-800 rounded-lg  
+            <div onClick={()=> router.push(`/inhome`)} className="fixed pt-2 hover:cursor-pointer  text-white stroke-2 bg-red-800 rounded-lg  
                              justify-center h-10 w-96 pl-40  font-bold ">
             Submit 
             </div>
