@@ -10,6 +10,9 @@
         font-family: sans-serif;
         
        }
+      
+select:invalid { color: #A9A9AC; }
+
        
        input[type="radio"] + label span {
            transition: background .2s,
