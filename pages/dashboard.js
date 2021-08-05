@@ -1,3 +1,4 @@
+/* eslint-disable */
 import {ChevronRightIcon} from "@heroicons/react/outline"
 import Image from 'next/image'
 import DatePick from "./components/DatePick"

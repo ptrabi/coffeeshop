@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { ShoppingBagIcon } from "@heroicons/react/solid"
 import { useRouter } from "next/router"
-Image
+
 function Thumbnail() {
     const router = useRouter()
     return (
